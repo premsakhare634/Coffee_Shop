@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'merriwether',serif;
+}
+.all-content{
+    background-color: #f7f5f2;
+}
+/* NAVBAR */
+#navbar{
+    background-color: #b2744c;
+    margin: auto;
+}
+#logo img{
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 40px;
+}
+.navbar-nav{
+    margin-left:50px;
+}
+.nav-item .nav-link{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.nav-item .nav-link:hover{
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+/* Home Page */
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./Assets/images/bc3.png);
+    background-size: cover;
+    background-position: 88%;
+}
+#home .content{
+    padding-top:10px;
+    margin-left: 56px;
+}
+#home .content h3{
+    font-size: 50px;
+    color: white;
+}
+#home .content p{
+    color: white;
+    margin-top: 10px;
+}
+#btn{
+    color: black ;
+    background-color: white ;
+    border-color: white;
+}
+#btn:hover{
+    color: white;
+    background-color: #b2744c;
+    border-color: #b2744c;
+}
+/* About Section */
+#about{
+    height: 100vh;
+    width: 100%;
+}
+#about .container{
+    padding-top: 70px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading span{
+    color: #b2744c;
+}
+#about .card {
+    border-radius: 10px;
+}
+#about .card img{
+    border-radius: 10px;
+}
+#btn-about{
+    color: white ;
+    background-color: black ;
+    border-color: black;
+}
+#btn-about:hover{
+    color: white;
+    background-color: #b2744c;
+    border-color: #b2744c;
+}
+/* Top-Card */
+#top-cards{
+    width: 100%;
+    height: 60vh;
+    background: #f7f5f2;
+    padding-top: 30px;
+}
+.heading2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading2 span{
+    color: #b2744c;
+}
+#top-cards .container{
+    margin-top: 30px;
+}
+/* MENU */
+#menu{
+    width: 100%;
+    margin-top: 60px;
+}
+.heading3{
+    text-align: center;
+    font-size: 30px;
+    color: #b2744c;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+
+}
+#container2{
+    margin-top: 50px;
+}
+.star i{
+    color: #b2744c;
+}
+#menu h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#menu p{
+    color: #b2744c;
+    font-size: 16px;
+    padding-top: 10px;
+}
+#menu span{
+    float: right; 
+}
+/* Product Section */
+#product{
+    width: 100%;
+}
+.heading4{
+    text-align: center;
+    font-size: 30px;
+    color: #b2744c;
+    padding-top: 100px;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+
+}
+#container3{
+    margin-top: 50px;
+}
+#product h3{
+    text-align: center;
+    color: #b2744c;
+    font-size: 23px;
+} 
+#product p{
+    color: #b2744c;
+    font-size: 16px;
+    padding-top: 10px;
+}
+#product span{
+    float: right; 
+}
+/* Gallery */
+#gallery{
+    width: 100%;
+    height: 100vh;
+}
+.heading5{
+    text-align: center;
+    font-size: 30px;
+    color: #b2744c;
+    padding-top: 100px;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+    margin-bottom: 50px;
+}
+/* Footer */
+#footer{
+    width: 100%;
+    background: #b2744c;
+    margin-top: 50px;
+}
+.footer-logo img{
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.footer .social-links i{
+    font-size: 17px;
+    margin-left: 10px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+.credits{
+    outline-color: white;
+    margin-top: 20px;
+
+}
+#credits a{
+    color: black;
+    font-weight: bold;
+}
+#credits a span{
+    color: black;
+}
+.copyright span{
+    color: black;
+}
